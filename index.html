@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+ 
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+	
+    <script src="https://kit.fontawesome.com/a82ca59247.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+</head>
+<body>
+    <div id="header">
+        <video autoplay loop muted playsinline>
+            <source src="images/intriexample.mp4" type="video/mp4">
+          </video>
+        <div class="container">
+        <nav>
+            <img src="images/DREAM.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>HIRE A TALENT</h1>
+        </div>
+    </div>
+</div>
+
+<!----------------about-------->
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <img src="images/US.png">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Us</h1>
+            <p>
+                Our team are friendly people who takes responsibilities seriously and is always open to new ideas. 
+                Our team have strong communication skills and can easily adjust to any changes that come on our way. 
+                Our team strongly believe in always improving professionally and growing my knowledge.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>General Virtual Assistant</span>
+                    <br></br>Technical proficiency<br>
+                    <br>Communacation skills</br>
+                    <br>Organizational skills</br>
+                    <br>Time management</br>
+                    <br>Problem Solving<br>
+                    </br>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>Social Media Manager & Content Creator:</span><br>Having garnered three years of experience in managing social media accounts and crafting engaging 
+                        content on platforms such as YouTube, Facebook, and Tiktok, I am able to demonstrate a successful track record of elevating brand visibility, 
+                        fostering community engagement, and driving positive results.</li>
+                    <li><span>Actual merchant</span><br>Adept at leveraging social media networks to promote products and services and engage with consumers. 
+                        Skilled in developing sales strategies to achieve corporate goals. 
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Computer Course Related</span><br> 2019-2023</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!----------------gallery-------->
+
+<div id="galleryprofile">
+    <div class="gallery">
+        <div class="img-box">
+            <img src="images/kurt.jpg" alt="Kurt">
+            <div class="img-text">
+                <h3>Kurt</h3>
+                <p>Description of Kurt</p>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/user.jpg" alt="Mark">
+            <div class="img-text">
+                <h3>Mark</h3>
+                <p>Description of Mark</p>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/rohnna.jpg" alt="Rohnna">
+            <div class="img-text">
+                <h3>Rohnna</h3>
+                <p>Description of Rohnna</p>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/ken.jpg" alt="Kurt">
+            <div class="img-text">
+                <h3>Ken</h3>
+                <p>Description of Ken</p>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="images/jibreel.jpg" alt="Jibreel">
+            <div class="img-text">
+                <h3>Jibreel</h3>
+                <p>Description of Jibreel</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            
+
+
+<!----------------logo slider-------->
+
+
+<div class="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="sec-heading">
+                    <h2>Tools We Using</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme clients-carousel">
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/365.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/drive.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/facebook.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/gmail.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/pr.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/ps.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/quickbooks.png"></div>
+                    <div class="item box"><img alt="client logo" class="client-img" src="images/logo slider/zoom.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js">
+</script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+</script> 
+<script>
+       $('.clients-carousel').owlCarousel({
+   autoplay: true,
+   loop: true,
+   autoWidth:true,
+   margin: 100,
+   dots: false,
+   slideTransition: 'linear',
+   autoplayTimeout: 4500,
+   autoplayHoverPause: true,
+   autoplaySpeed: 4500,
+   responsive: {
+     0: {
+       items: 2
+     },
+     500: {
+       items: 3
+     },
+     600: {
+       items: 4
+     },
+     800: {
+       items: 4
+     },
+     1200: {
+       items: 4
+     }
+
+   }
+ });
+</script>
+
+
+<!--------services-->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-headset"></i>
+                <h2>Customer Services</h2>
+                <p>
+                    Offering you to provide you with exceptional customer service that goes above and beyond your expectations. 
+                    Our team is dedicated to ensuring that you have a seamless and stress-free experience, whether you need help with a product, have a question, 
+                    or require technical support.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2>Image and Video Editing</h2>
+                <p> 
+                    Offer you professional color correction services, comprehensive sound editing services, including audio enhancement and the addition of sound effects and music.
+                    we offer a range of visual effects services, formatting services,  comprehensive post-production services, And consultation services to clients, providing expert 
+                    advice and recommendations on how to make their video projects more effective and impactful.
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-handshake-angle"></i>
+                <h2>Social Media Manager</h2>
+                <p>
+                    Offer you to create and manage social media advertising campaigns, provide regular analytics and reporting, 
+                    managing the client's social media accounts on various platforms, and lastly create and curate engaging and high-quality content for the client's social media channels,
+                </p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------work experience-------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Our Experience</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Create and Manage your Website</h3>
+                    <p>Conducted user testing to ensure website functionality and user experience.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Video Editing Softwares</h3>
+                    <p>Knowledge of file management and archiving practices to ensure efficient and organized post-production workflows.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>Manage your Social Media</h3>
+                    <p>Strong understanding of social media advertising, including campaign creation, targeting, and optimization.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!------------contact-------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><a href="http://gmail.com"><i class="fa-solid fa-link"></i></a> markr9353@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/markangelo.rosales.56"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.messenger.com/t/100006495161924"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    <a href="https://www.tiktok.com/@120.hz"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/markangelor62/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/mark_resume.docx" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>    
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© DREAMHAUSE. 2023. All rights reserved.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+        
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzTfQJ1gJgUyp_fcuXCskwJZQX9FEMLPgWeEVOBLoshX7vhJNZCxzcqxANOP0wluNJoxw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
